@@ -101,7 +101,7 @@ nav .fa{
         text-align: left;
         z-index: 2;
         transition: 1s;
-        overflow-x: hidden;
+        overflow: hidden;
     }
     nav .fa{
         display: block;
@@ -109,9 +109,11 @@ nav .fa{
         color: #fff;
         font-size: 22px;
         cursor: pointer;
+        overflow-x: hidden;
     }
     .nav-links ul{
         padding: 30px;
+        overflow-x: hidden;
     }
 }
 .course{
